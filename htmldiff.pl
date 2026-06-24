@@ -336,8 +336,7 @@ sub splitit {
 .diff-group-end::after { position:absolute; width: 0; overflow: hidden; }
 
 .hide-diff-old .diff-old { display: none; }
-.hide-diff-markers .diff-new.diff-group-start::before,
-.hide-diff-markers .diff-chg.diff-group-start::before,
+.hide-diff-markers :is(.diff-new, .diff-chg, .diff-old).diff-group-start::before,
 .hide-diff-markers :is(.diff-new, .diff-chg, .diff-old).diff-group-end::after { content: none; }
 </style>
 <script>
