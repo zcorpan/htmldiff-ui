@@ -347,7 +347,7 @@ sub splitit {
  *
  * Boundary rule (no computed styles):
  * - Only the following elements are treated as inline/transparent wrappers:
- *   img, span, a, code, var, i, em, strong, c-*, dfn, cite, mark, b, sup, sub,
+ *   img, span, a, code, var, i, em, strong, c-, dfn, cite, mark, b, sup, sub,
  *   samp, iframe, li, kbd, bdo, small, br, q
  * - Any other element between two diff nodes breaks adjacency.
  * - Any non-whitespace text node between two diff nodes breaks adjacency.
