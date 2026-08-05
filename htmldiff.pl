@@ -357,7 +357,7 @@ sub splitit {
  * - .diff-group-end on last
  */
 function groupInlineDiffsSimple(root = document) {
-  const DIFF_SEL = 'ins.diff-new, ins.diff-chg, del.diff-old, ins.diff-old, del.diff-new, del.diff-chg, ins.diff-chg, del.diff-old';
+  const DIFF_SEL = 'ins.diff-new, ins.diff-chg, del.diff-old, ins.diff-old, del.diff-new, del.diff-chg';
 
   // Inline/transparent tag allowlist.
   const INLINE_TAGS = new Set([
